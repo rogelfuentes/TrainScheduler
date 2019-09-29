@@ -1,0 +1,13 @@
+.jumbotron {
+    background-image: url('images/10.jpeg');
+    background-size: cover;
+    color: white;
+
+    border-top-width: 200px
+}
+
+.card-header {
+    background-color: dodgerblue;
+    color: white
+}
+
