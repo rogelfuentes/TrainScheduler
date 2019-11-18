@@ -56,11 +56,11 @@ $("#submit-btn").on("click", function (event) {
 // 3. Create Firebase event for adding employee to the database and a row in the html when a user adds an entry
 dataRef.ref().on("child_added", function (childSnapshot) {
 
-    // console.log(childSnapshot.val());
-    // console.log(childSnapshot.val().train_name);
-    // console.log(childSnapshot.val().destination);
-    // console.log(childSnapshot.val().first_train);
-    // console.log(childSnapshot.val().frecuancy);
+    console.log(childSnapshot.val());
+    console.log(childSnapshot.val().train_name);
+    console.log(childSnapshot.val().destination);
+    console.log(childSnapshot.val().first_train);
+    console.log(childSnapshot.val().frecuancy);
 
 
     // Prettify the employee start
